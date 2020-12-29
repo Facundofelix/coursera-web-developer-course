@@ -1,0 +1,49 @@
+@media(min-width:600px){
+    body{background-color: royalblue;}
+}
+
+@media(max-width:599){
+    body{background-color: azure;}
+}
+
+body {font-family: 'Poppins', sans-serif;}
+
+footer {
+        text-align: center;
+        padding : 4px;
+        background-color: aqua;
+        color: black;
+        font-family: 'Poppins', sans-serif;
+        border-collapse: collapse;
+}
+section {
+        text-align: center;
+        padding: 3px;
+        background-color: blue;
+        color: white;
+        font-family: 'Poppins',sans-serif;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+form {
+    background-color: cadetblue;
+    text-align: center;
+    border: 3px dashed royalblue;
+}
+
+form:hover{
+    background-color: royalblue;
+    border: 4px solid cadetblue;
+    width: 100px;
+    transition: width 10s ease-in-out;
+}
